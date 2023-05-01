@@ -33,21 +33,60 @@
       "pages": ["get-started/overview", "get-started/account", "get-started/sandbox","get-started/client","get-started/interface"]
     },
     {
-      "group": "API Authentication",
-      "pages": ["api-reference/authentication"]
+      "group": "Standard Wallet", 
+      "pages": [
+        {
+          "group": "Account",
+          "pages": [
+            "standard-wallet/account", 
+            "api-reference/standard-wallet/account/check-details",
+            "api-reference/standard-wallet/account/get-supported-coins",
+            "api-reference/standard-wallet/account/get-coin-details"
+          ]
+        },
+        {
+          "group": "Loop Alliance", 
+          "pages": [
+            "api-reference/standard-wallet/loop/check-loop-address",
+            "api-reference/standard-wallet/loop/verify-loop-address",
+            "standard-wallet/loop-transaction-explorer"
+          ]
+        },
+        {
+          "group": "Transactions", 
+          "pages": [
+            "api-reference/standard-wallet/transactions/obtain-list"
+          ]
+        }
+      ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Web3 Wallet",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "web3/configure-web3",
+        {
+          "group": "Account",
+          "pages": ["api-reference/web3-wallet/account/get-supported-chains"]
+        }
+      ]
+    }, 
+    {
+      "group": "Staking",
+      "pages": ["api-reference/staking/unstake"]
+    }, 
+    {
+      "group": "",
+      "pages": [
+        "transaction-notification",
+        "appendix"
       ]
     }
   ],
+  "api": {
+    "baseUrl": "https://api.custody.cobo.com"
+ },
   "footerSocials": {
-    "webpage": "https://www.cobo.com/",
+    "website": "https://www.cobo.com/",
     "twitter": "https://twitter.com/Cobo_Global",
     "linkedin": "https://www.linkedin.com/company/cobo-global/"
   }

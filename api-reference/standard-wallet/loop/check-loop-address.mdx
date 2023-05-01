@@ -1,0 +1,31 @@
+---
+title: "Check Loop Address Details"
+api: "GET /v1/custody/internal_address_info/"
+---
+To check if the address available for Loop transaction.
+
+More info about Loop ： https://loop.top/
+
+<ParamField body="coin" type="String" required="true">
+    Coin code
+</ParamField>
+
+<ParamField body="address" type="String" required="true">
+    Deposit address
+</ParamField>
+
+<ParamField body="memo" type="String">
+    Memo for specified coins(EOS,XLM,XRP,IOST)
+</ParamField>
+
+<ResponseField name="is_internal_address" type="Bool">
+    If it's Loop address
+</ResponseField>
+
+<ResponseField name="internal_org" type="String">
+    Organization of the address
+</ResponseField>
+
+<ResponseField name="internal_wallet" type="String">
+    Wallet of the address
+</ResponseField>

@@ -1,0 +1,10 @@
+---
+title: "Obtain the list of confirmed transactions through Request ID query(deposit&withdraw)"
+api: "GET /v1/custody/transactions_by_request_ids/"
+---
+Only successful deposit/withdraw requests will be considered as 'Transaction' here
+
+<ParamField body="request_ids" type="String" required="true">
+    Request ID
+</ParamField>
+

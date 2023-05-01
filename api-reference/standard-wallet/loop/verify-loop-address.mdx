@@ -1,0 +1,16 @@
+---
+title: "Verify Loop Address List"
+api: "GET /v1/custody/internal_address_info_batch/"
+---
+
+<ParamField body="coin" type="String" required="true">
+    Coin code
+</ParamField>
+
+<ParamField body="address" type="String" required="true">
+    Deposit address (Separate memo by vertical bar)
+</ParamField>
+
+<ResponseField name="is_internal_address" type="Bool">
+    If it's Loop Address
+</ResponseField>
