@@ -29,7 +29,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started with Cobo Custody WaaS API",
+      "group": "Get Started",
       "pages": ["get-started/overview", "get-started/account", "get-started/sandbox","get-started/client","get-started/interface"]
     },
     {
