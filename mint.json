@@ -1,50 +1,39 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "Cobo",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#4D84FF",
+    "light": "#7DA5FF",
+    "dark": "#0849D9"
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Support",
+      "url": "https://support.cobo.com/hc/en-us"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "https://www.cobo.com/"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Blog", 
+      "icon": "book", 
+      "url": "https://medium.com/@Cobo_Global"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Get Started with Cobo Custody WaaS API",
+      "pages": ["get-started/overview", "get-started/account", "get-started/sandbox","get-started/client","get-started/interface"]
     },
     {
-      "group": "API Documentation",
+      "group": "API Authentication",
       "pages": ["api-reference/authentication"]
     },
     {
@@ -58,8 +47,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "webpage": "https://www.cobo.com/",
+    "twitter": "https://twitter.com/Cobo_Global",
+    "linkedin": "https://www.linkedin.com/company/cobo-global/"
   }
 }
